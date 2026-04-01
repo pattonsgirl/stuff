@@ -1,0 +1,102 @@
+[2026-03-31 14:01:02] session:8821 user:admin cmd:systemctl status ssh
+[2026-03-31 14:01:15] session:8821 user:admin cmd:systmctl restart ssh
+[2026-03-31 14:02:45] session:9012 user:dev_01 cmd:ls -la /var/www
+[2026-03-31 14:03:10] session:8821 user:admin cmd:systemclt stop ssh
+[2026-03-31 14:05:22] session:9244 user:guest cmd:cat /etc/passwd
+[2026-03-31 14:06:01] session:8821 user:admin cmd:systemcrtl start ssh
+[2026-03-31 14:06:45] session:8821 user:admin cmd:sysctl -a
+[2026-03-31 14:07:12] session:8821 user:admin cmd:systemctl status ssh
+[2026-03-31 14:08:33] session:9012 user:dev_01 cmd:sytemctl logs
+[2026-03-31 14:09:10] session:9012 user:dev_01 cmd:systemctl restart nginx
+[2026-03-31 14:10:05] session:9244 user:guest cmd:sudo rm -rf /
+[2026-03-31 14:11:15] session:8821 user:admin cmd:systemmctl reload apache
+[2026-03-31 14:12:01] session:9012 user:dev_01 cmd:cd /var/log
+[2026-03-31 14:12:15] session:9012 user:dev_01 cmd:tail -f syslog
+[2026-03-31 14:13:40] session:8821 user:admin cmd:systemctl status mysql
+[2026-03-31 14:14:10] session:8821 user:admin cmd:systmctl start mysql
+[2026-03-31 14:15:22] session:9244 user:guest cmd:whoami
+[2026-03-31 14:16:05] session:9012 user:dev_01 cmd:vim index.html
+[2026-03-31 14:17:40] session:8821 user:admin cmd:systemclt restart mysql
+[2026-03-31 14:18:10] session:8821 user:admin cmd:grep "error" /var/log/syslog
+[2026-03-31 14:19:05] session:9012 user:dev_01 cmd:systemctl stop nginx
+[2026-03-31 14:20:12] session:9244 user:guest cmd:python3 -m http.server
+[2026-03-31 14:21:45] session:8821 user:admin cmd:systemctl status ufw
+[2026-03-31 14:22:30] session:8821 user:admin cmd:systamctl disable ufw
+[2026-03-31 14:23:15] session:9012 user:dev_01 cmd:ls -lR /home/dev_01
+[2026-03-31 14:24:50] session:8821 user:admin cmd:systemctl enable ufw
+[2026-03-31 14:25:10] session:8821 user:admin cmd:systemcrtl status ufw
+[2026-03-31 14:26:05] session:9244 user:guest cmd:ping -c 4 8.8.8.8
+[2026-03-31 14:27:40] session:8821 user:admin cmd:systemctl status ssh
+[2026-03-31 14:28:15] session:9012 user:dev_01 cmd:sytemctl status nginx
+[2026-03-31 14:29:10] session:9012 user:dev_01 cmd:curl -I localhost
+[2026-03-31 14:30:05] session:8821 user:admin cmd:systemctl restart ssh
+[2026-03-31 14:31:12] session:8821 user:admin cmd:tail -n 20 /var/log/auth.log
+[2026-03-31 14:32:45] session:9012 user:dev_01 cmd:systemmctl start docker
+[2026-03-31 14:33:10] session:9012 user:dev_01 cmd:systemctl status docker
+[2026-03-31 14:34:05] session:9244 user:guest cmd:ls /tmp
+[2026-03-31 14:35:15] session:8821 user:admin cmd:systemctl stop ufw
+[2026-03-31 14:36:40] session:8821 user:admin cmd:systmctl status ufw
+[2026-03-31 14:37:10] session:9012 user:dev_01 cmd:top
+[2026-03-31 14:38:05] session:8821 user:admin cmd:systemclt start ufw
+[2026-03-31 14:39:12] session:9012 user:dev_01 cmd:systemctl reload nginx
+[2026-03-31 14:40:45] session:9244 user:guest cmd:exit
+[2026-03-31 14:41:10] session:8821 user:admin cmd:systemctl status cron
+[2026-03-31 14:42:05] session:8821 user:admin cmd:systemcrtl restart cron
+[2026-03-31 14:43:15] session:9012 user:dev_01 cmd:mkdir backups
+[2026-03-31 14:44:40] session:9012 user:dev_01 cmd:cp -r /var/www ./backups
+[2026-03-31 14:45:10] session:8821 user:admin cmd:systemmctl stop cron
+[2026-03-31 14:46:05] session:8821 user:admin cmd:systemctl start cron
+[2026-03-31 14:47:12] session:9012 user:dev_01 cmd:systemctl status mysql
+[2026-03-31 14:48:45] session:9012 user:dev_01 cmd:sytemctl restart mysql
+[2026-03-31 14:49:10] session:8821 user:admin cmd:df -h
+[2026-03-31 14:50:05] session:8821 user:admin cmd:systemctl status apache2
+[2026-03-31 14:51:15] session:8821 user:admin cmd:systmctl start apache2
+[2026-03-31 14:52:40] session:9012 user:dev_01 cmd:systemctl stop apache2
+[2026-03-31 14:53:10] session:9012 user:dev_01 cmd:systemclt status apache2
+[2026-03-31 14:54:05] session:8821 user:admin cmd:ps aux | grep nginx
+[2026-03-31 14:55:12] session:8821 user:admin cmd:systemctl restart nginx
+[2026-03-31 14:56:45] session:9012 user:dev_01 cmd:systemcrtl status docker
+[2026-03-31 14:57:10] session:9012 user:dev_01 cmd:systemctl stop docker
+[2026-03-31 14:58:05] session:8821 user:admin cmd:netstat -tulpn
+[2026-03-31 14:59:15] session:8821 user:admin cmd:systemmctl start ufw
+[2026-03-31 15:00:40] session:8821 user:admin cmd:systemctl status ufw
+[2026-03-31 15:01:10] session:9012 user:dev_01 cmd:sytemctl status ssh
+[2026-03-31 15:02:05] session:9012 user:dev_01 cmd:systemctl restart ssh
+[2026-03-31 15:03:12] session:8821 user:admin cmd:uptime
+[2026-03-31 15:04:45] session:8821 user:admin cmd:systemctl status ssh
+[2026-03-31 15:05:10] session:8821 user:admin cmd:systmctl stop ssh
+[2026-03-31 15:06:05] session:9012 user:dev_01 cmd:cat /var/log/nginx/error.log
+[2026-03-31 15:07:15] session:9012 user:dev_01 cmd:systemclt start ssh
+[2026-03-31 15:08:40] session:8821 user:admin cmd:systemctl status mysql
+[2026-03-31 15:09:10] session:8821 user:admin cmd:systemcrtl restart mysql
+[2026-03-31 15:10:05] session:9012 user:dev_01 cmd:journalctl -xe
+[2026-03-31 15:11:12] session:9012 user:dev_01 cmd:systemmctl stop mysql
+[2026-03-31 15:12:45] session:9012 user:dev_01 cmd:systemctl start mysql
+[2026-03-31 15:13:10] session:8821 user:admin cmd:ls -lh /etc/nginx
+[2026-03-31 15:14:05] session:8821 user:admin cmd:systemctl status nginx
+[2026-03-31 15:15:15] session:8821 user:admin cmd:systmctl reload nginx
+[2026-03-31 15:16:40] session:9012 user:dev_01 cmd:systemctl restart cron
+[2026-03-31 15:17:10] session:9012 user:dev_01 cmd:systemclt stop cron
+[2026-03-31 15:18:05] session:8821 user:admin cmd:id admin
+[2026-03-31 15:19:12] session:8821 user:admin cmd:systemctl status docker
+[2026-03-31 15:20:45] session:8821 user:admin cmd:systemcrtl start docker
+[2026-03-31 15:21:10] session:9012 user:dev_01 cmd:sytemctl status docker
+[2026-03-31 15:22:05] session:9012 user:dev_01 cmd:systemctl stop docker
+[2026-03-31 15:23:15] session:8821 user:admin cmd:chown admin:admin index.html
+[2026-03-31 15:24:40] session:8821 user:admin cmd:systemmctl restart ufw
+[2026-03-31 15:25:10] session:8821 user:admin cmd:systemctl status ufw
+[2026-03-31 15:26:05] session:9012 user:dev_01 cmd:ping -c 2 google.com
+[2026-03-31 15:27:12] session:9012 user:dev_01 cmd:systmctl stop ssh
+[2026-03-31 15:28:45] session:9012 user:dev_01 cmd:systemctl start ssh
+[2026-03-31 15:29:10] session:8821 user:admin cmd:systemctl status apache2
+[2026-03-31 15:30:05] session:8821 user:admin cmd:systemclt restart apache2
+[2026-03-31 15:31:15] session:9012 user:dev_01 cmd:history | tail -n 10
+[2026-03-31 15:32:40] session:9012 user:dev_01 cmd:systemcrtl stop apache2
+[2026-03-31 15:33:10] session:9012 user:dev_01 cmd:systemctl start apache2
+[2026-03-31 15:34:05] session:8821 user:admin cmd:systemmctl status mysql
+[2026-03-31 15:35:12] session:8821 user:admin cmd:systemctl restart mysql
+[2026-03-31 15:36:45] session:9012 user:dev_01 cmd:sytemctl stop cron
+[2026-03-31 15:37:10] session:9012 user:dev_01 cmd:systemctl start cron
+[2026-03-31 15:38:05] session:8821 user:admin cmd:systemctl status ssh
+[2026-03-31 15:39:15] session:8821 user:admin cmd:systmctl restart ssh
+[2026-03-31 15:40:40] session:9012 user:dev_01 cmd:systemclt status ufw
